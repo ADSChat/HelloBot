@@ -5,10 +5,10 @@ console.log('Starting bot...');
 
 // Configuration object
 const config = {
-    token: process.env.BOT_TOKEN, // Use environment variables for sensitive data
-    clientId: '1307221706246721627', // Your bot's client ID
-    guildId: '1292624867631562817', // Your server's guild ID
-    welcomeChannelId: '1292624868537401385', // Updated welcome channel ID
+    token: process.env.BOT_TOKEN, 
+    clientId: '1307221706246721627',
+    guildId: '1292624867631562817', // Server ID
+    welcomeChannelId: '1292624868537401385',
     apiEndpoint: 'https://discord.com/api',
     gateway: 'wss://gateway.discord.gg',
     cdn: 'https://cdn.discordapp.com'
